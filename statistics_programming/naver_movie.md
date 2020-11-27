@@ -1,5 +1,6 @@
-0. 자료 준비
- 
+### 네이버 현재 상영 페이지 R로 크롤 및 간단 분석
+
+0. 자료 준비 
 [네이버의 현재 상영 영화 페이지](https://movie.naver.com/movie/running/current.nhn?order=reserve)의 영화 목록 중 제목, 평점, 예매율, 대표장르1개를 크롤링해와서 mv_df라는 데이터 프레임을 만듦.  
 아래는 mv_df의 구조입니다.
 ``` R
